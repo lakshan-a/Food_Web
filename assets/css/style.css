@@ -1,0 +1,27 @@
+/**************** common css start ****************/
+@import url("https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Lora:400,400i,700,700i");
+body {
+    font-family: "Lora", serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+h1,h5 {
+    color: #2c3033;
+    font-family: "Cardo", serif;
+}
+
+p {
+    font-family: "Lora", serif;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #555555;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 22px;
+}
