@@ -381,3 +381,17 @@ h5 {
     border: 3px solid hsl(0, 0%, 93%);
     border-radius: 50px;
 }
+
+
+/*-----------------------------------*\
+  #PROMO
+\*-----------------------------------*/
+
+.promo-card {
+    position: relative;
+    background-color:#fff;
+    text-align: center;
+    padding: 40px 30px;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+    z-index: 1;
+}
