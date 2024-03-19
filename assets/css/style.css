@@ -455,3 +455,16 @@ h5 {
     min-width: 100%;
     scroll-snap-align: start;
 }
+
+@media (min-width: 550px) {
+
+    .container {
+        max-width: 550px;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .has-scrollbar > li { min-width: calc(50% - 5px); }
+
+
+}
