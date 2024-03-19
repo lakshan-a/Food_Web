@@ -201,3 +201,24 @@ h5 {
     font-weight: 500;
     text-transform: capitalize;
 }
+
+.banner_part .video_popup span {
+    width: 44px;
+    height: 44px;
+    background-color: #fcf5ee;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 41px;
+    font-size: 14px;
+    color: #ff6426;
+    margin-left: 30px;
+    margin-right: 13px;
+    padding-left: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.banner_part .video_popup span:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
