@@ -180,3 +180,14 @@ h5 {
 .banner_part .banner_text .banner_btn_iner:hover .btn_2 img {
     padding-right: 15px;
 }
+
+.banner_part .banner_text .banner_btn_iner:hover .btn_2:after {
+    right: 25px;
+    background-color: #ff6426;
+}
+
+.banner_part .banner_text .btn_2 {
+    padding: 14px 0px 14px 25px;
+    border-left: 1px solid #2c3033;
+    position: relative;
+}
