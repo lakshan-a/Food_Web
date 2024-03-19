@@ -366,3 +366,18 @@ h5 {
     scroll-snap-type: inline mandatory;
     padding-block-end: 40px;
 }
+
+
+.has-scrollbar::-webkit-scrollbar { height: 12px; }
+
+.has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 40px); }
+
+.has-scrollbar::-webkit-scrollbar-track {
+    outline: 2px solid hsl(32, 100%, 59%);
+    border-radius: 50px;
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+    border: 3px solid hsl(0, 0%, 93%);
+    border-radius: 50px;
+}
