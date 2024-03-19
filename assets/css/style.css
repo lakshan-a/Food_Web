@@ -98,3 +98,17 @@ h5 {
     display: table-cell;
     vertical-align: middle;
 }
+
+.banner_part .banner_text h5 {
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #ff6426;
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Lora", serif;
+    margin-bottom: 25px;
+}
+
+.banner_part .banner_text p {
+    margin-bottom: 45px;
+}
