@@ -403,3 +403,20 @@ h5 {
     line-height: 1.2;
 }
 
+
+.promo-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #FF9D2EFF;
+    clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0 100%);
+    transform: scaleY(0.3);
+    transform-origin: bottom;
+    z-index: -1;
+    transition: 0.25s ease;
+}
+
+.promo-card:hover::after {
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+    transform: scaleY(1);
+}
