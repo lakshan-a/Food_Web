@@ -125,3 +125,25 @@ h5 {
 .banner_part .banner_text h1 span {
     color: #ff6426;
 }
+
+.banner_part .banner_text .banner_btn_iner {
+    position: relative;
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-right: 1px solid transparent;
+}
+
+.banner_part .banner_text .banner_btn_iner:before {
+    width: 60px;
+    height: 1px;
+    position: absolute;
+    content: "";
+    top: 0px;
+    border-radius: 5px;
+    z-index: -1;
+    background-color: #2c3033;
+    left: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
