@@ -282,3 +282,27 @@ h5 {
         line-height: 1.3;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */
+    .banner_part {
+        height: 700px;
+        background-image: none;
+    }
+
+    .banner_part:after {
+        display: none;
+    }
+
+    .banner_part .banner_text {
+        text-align: center;
+        padding-top: 0px;
+        height: 700px;
+    }
+
+    .banner_part .banner_text h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+}
