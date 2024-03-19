@@ -191,3 +191,13 @@ h5 {
     border-left: 1px solid #2c3033;
     position: relative;
 }
+
+.banner_part .video_popup {
+    z-index: 99 !important;
+    color: #333848;
+    font-size: 14px;
+    margin-left: 5px;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: capitalize;
+}
