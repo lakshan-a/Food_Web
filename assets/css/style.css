@@ -436,12 +436,17 @@ h5 {
     width: 100%;
     height: auto; }
 
-.promo-card .card-icon svg { margin-inline: auto; }
+.promo-card .card-icon svg {
+    margin-inline: auto;
+}
 
-.promo-card:hover .card-icon path { fill: #fff; }
+.promo-card:hover .card-icon path {
+    fill: #fff;
+}
 
 .promo-card:hover :is(.card-title, .card-text) {
-    color: #fff; }
+    color: #fff;
+}
 
 
 .promo-card .card-title {
