@@ -466,5 +466,20 @@ h5 {
 
     .has-scrollbar > li { min-width: calc(50% - 5px); }
 
+}
+
+@media (min-width: 768px) {
+
+    .container { max-width: 720px; }
+
+}
+
+@media (min-width: 992px) {
+
+    .container { max-width: 960px; }
+
+    .has-scrollbar > li { min-width: calc(33.33% - 6.66px); }
+
+    .h2 { --fs-1: 4.2rem; }
 
 }
