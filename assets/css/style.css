@@ -483,3 +483,11 @@ h5 {
     .h2 { --fs-1: 4.2rem; }
 
 }
+
+@media (min-width: 1200px) {
+    .container { max-width: 1200px; }
+
+    .promo .promo-item { min-width: calc(25% - 7.5px); }
+
+
+}
