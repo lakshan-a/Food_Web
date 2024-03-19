@@ -222,3 +222,37 @@ h5 {
 .banner_part .video_popup span:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+
+
+@media (max-width: 576px) {
+    /* line 189, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_banner.scss */
+    .banner_part .video_popup span {
+        margin-left: 0px;
+    }
+
+    .banner_part .video_popup {
+        margin-left: 0px;
+    }
+
+    .banner_part {
+        height: 650px;
+        background-image: none;
+    }
+
+    .banner_part:after {
+        display: none;
+    }
+
+    .banner_part .banner_text {
+        text-align: center;
+        padding-top: 0px;
+        height: 650px;
+    }
+
+    .banner_part .banner_text h1 {
+        font-size: 27px;
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+}
