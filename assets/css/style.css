@@ -112,3 +112,16 @@ h5 {
 .banner_part .banner_text p {
     margin-bottom: 45px;
 }
+
+
+.banner_part .banner_text h1 {
+    font-size: 53px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.273;
+}
+
+.banner_part .banner_text h1 span {
+    color: #ff6426;
+}
