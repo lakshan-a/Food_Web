@@ -190,6 +190,7 @@ h5 {
     padding: 14px 0px 14px 25px;
     border-left: 1px solid #2c3033;
     position: relative;
+    text-decoration: none;
 }
 
 .banner_part .video_popup {
@@ -200,6 +201,7 @@ h5 {
     display: inline-block;
     font-weight: 500;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 .banner_part .video_popup span {
