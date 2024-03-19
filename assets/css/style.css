@@ -25,3 +25,42 @@ h5 {
     font-size: 18px;
     line-height: 22px;
 }
+
+
+@media only screen and (min-width: 1200px) and (max-width: 3640px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+.btn_2 {
+    display: inline-block;
+    font-size: 15px;
+    color: #1d272f;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+}
+
+.btn_2:after {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    content: "";
+    top: 17px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #ffeee7;
+    right: 34px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn_2 img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: 13px;
+    margin-bottom: 5px;
+    padding-right: 15px;
+}
