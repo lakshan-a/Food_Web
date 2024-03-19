@@ -8,6 +8,26 @@ body {
 }
 
 
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+
+::-webkit-scrollbar { width: 8px; }
+
+::-webkit-scrollbar-track { background-color: hsl(0, 0%, 93%); }
+
+::-webkit-scrollbar-thumb { background-color: hsl(32, 100%, 59%); }
+
+::-webkit-scrollbar-thumb:hover { background-color: hsl(31, 84%, 50%); }
+
+
 h1,h5 {
     color: #2c3033;
     font-family: "Cardo", serif;
