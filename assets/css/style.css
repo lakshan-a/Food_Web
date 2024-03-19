@@ -378,9 +378,13 @@ h5 {
 }
 
 
-.has-scrollbar::-webkit-scrollbar { height: 12px; }
+.has-scrollbar::-webkit-scrollbar {
+    height: 12px;
+}
 
-.has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 40px); }
+.has-scrollbar::-webkit-scrollbar-button {
+    width: calc(25% - 40px);
+}
 
 .has-scrollbar::-webkit-scrollbar-track {
     outline: 2px solid hsl(32, 100%, 59%);
