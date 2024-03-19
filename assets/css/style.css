@@ -168,3 +168,15 @@ h5 {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
+
+.banner_part .banner_text .banner_btn_iner:hover:before {
+    width: 100%;
+}
+
+.banner_part .banner_text .banner_btn_iner:hover:after {
+    width: 100%;
+}
+
+.banner_part .banner_text .banner_btn_iner:hover .btn_2 img {
+    padding-right: 15px;
+}
