@@ -427,6 +427,19 @@
     transition: background 1s ease-in-out;
 }
 
+.carousel .list .item .content{
+    width: 1140px;
+    max-width: 90%;
+    margin: auto;
+    height: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 
