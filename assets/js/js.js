@@ -17,6 +17,19 @@ prevBtn.onclick = () => {
     setItemActive(newValue, showSlider);
 }
 
+dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+        setItemActive(index, showSlider);
+    })
+})
+
+const setItemActive = (newValue, callbackFunction) => {
+    if(newValue === active) return;
+    let type = newValue > active ? 'next' : 'prev';
+    active = newValue;
+    callbackFunction(type);
+}
+
 
 
 
