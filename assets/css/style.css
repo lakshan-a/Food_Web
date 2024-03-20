@@ -596,6 +596,19 @@
     animation-delay: 0.2s;
 }
 
+.carousel.effect .item .info a{
+    animation-delay: 0.3s;
+}
+.carousel.effect .item.active{
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    animation: animationClipPath 0.9s ease-in-out 1 forwards;
+}
+@keyframes animationClipPath{
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
 
 
 
