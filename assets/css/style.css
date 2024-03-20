@@ -29,6 +29,10 @@ body{
     font-size: 15px;
 }
 
+/*-----------------------------------*\
+  #Home section
+\*-----------------------------------*/
+
 .carousel{
     width: 100%;
     background-color: #555;
@@ -278,6 +282,7 @@ body{
     --transform-to: var(--transform);
 }
 
+/*<*=============End Of Home Section =================*>*/
 
 
 
@@ -314,6 +319,8 @@ body{
     border: 3px solid hsl(0, 0%, 93%);
     border-radius: 50px;
 }
+
+
 
 
 /*-----------------------------------*\
