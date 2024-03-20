@@ -571,6 +571,15 @@
     }
 }
 
+/* effect */
+@keyframes transformAnimation{
+    from{
+        transform: translateX(var(--transform-from));
+    }to{
+         transform: translateX(var(--transform-to));
+     }
+}
+
 
 
 
