@@ -34,6 +34,40 @@ let autoRun = setTimeout(() => {
     nextBtn.click();
 }, 5000);
 
+const showSlider = (type) => {
+    carousel.style.pointerEvents = 'none';
+    // find Item Active Old
+    let itemActiveOld = document.querySelector('.carousel .list .item.active');
+    if(itemActiveOld) itemActiveOld.classList.remove('active');
+    zIndex++;
+    list[active].style.zIndex = zIndex;
+    list[active].classList.add('active');
+
+    if(type === 'next'){
+        carousel.style.setProperty('--transform', '300px');
+    }else{
+        carousel.style.setProperty('--transform', '-300px');
+    }
+    carousel.classList.add('effect');
+
+    // dots
+    // find dot active old
+    let dotActiveOld = document.querySelector('.dots li.active');
+    if(dotActiveOld) dotActiveOld.classList.remove('active');
+    dots[active].classList.add('active');
+
+    clearTimeout(removeEffect);
+    removeEffect = setTimeout(() => {
+        carousel.classList.remove('effect');
+        carousel.style.pointerEvents = 'auto';
+    }, 1500);
+
+    clearTimeout(autoRun);
+    autoRun = setTimeout(() => {
+        nextBtn.click();
+    }, 5000);
+}
+
 
 
 
