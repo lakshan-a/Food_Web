@@ -5,6 +5,23 @@
     padding: 0;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: hsl(0, 0%, 93%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsl(32, 100%, 59%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover { background-color: hsl(31, 84%, 50%); }
+
 body{
     margin: 0;
     padding: 0;
@@ -261,4 +278,162 @@ body{
 .carousel.effect .item{
     --transform-from: 0;
     --transform-to: var(--transform);
+}
+
+
+
+
+/*-----------------------------------*\
+  #REUSED STYLE
+\*-----------------------------------*/
+
+.container { padding-inline: 15px; }
+
+
+.has-scrollbar {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: inline mandatory;
+    padding-block-end: 40px;
+}
+
+
+.has-scrollbar::-webkit-scrollbar {
+    height: 12px;
+}
+
+.has-scrollbar::-webkit-scrollbar-button {
+    width: calc(25% - 40px);
+}
+
+.has-scrollbar::-webkit-scrollbar-track {
+    outline: 2px solid hsl(32, 100%, 59%);
+    border-radius: 50px;
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+    border: 3px solid hsl(0, 0%, 93%);
+    border-radius: 50px;
+}
+
+
+/*-----------------------------------*\
+  #PROMO
+\*-----------------------------------*/
+
+.promo-card {
+    position: relative;
+    background-color:#fff;
+    text-align: center;
+    padding: 40px 30px;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+    z-index: 1;
+}
+
+
+.promo-card h3{
+    font-family: 'Rubik', sans-serif;
+    color: hsl(210, 26%, 7%);
+    line-height: 1.2;
+}
+
+
+.promo-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #FF9D2EFF;
+    clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0 100%);
+    transform: scaleY(0.3);
+    transform-origin: bottom;
+    z-index: -1;
+    transition: 0.25s ease;
+}
+
+.promo-card:hover::after {
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+    transform: scaleY(1);
+}
+
+
+.promo-card img {
+    width: 100%;
+    height: auto; }
+
+.promo-card .card-icon svg {
+    margin-inline: auto;
+}
+
+.promo-card:hover .card-icon path {
+    fill: #fff;
+}
+
+.promo-card:hover :is(.card-title, .card-text) {
+    color: #fff;
+}
+
+
+.promo-card .card-title {
+    margin-block: 15px;
+    transition: 0.25s ease;
+}
+
+.promo-card .card-text {
+    margin-block-end: 15px;
+    transition: 0.25s ease;
+}
+
+
+.promo-card .card-banner {
+    max-width: max-content;
+    margin-inline: auto;
+    aspect-ratio: 1 / 1;
+}
+
+.promo-item {
+    min-width: 100%;
+    scroll-snap-align: start;
+}
+
+@media (min-width: 550px) {
+
+    .container {
+        max-width: 550px;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .has-scrollbar > li { min-width: calc(50% - 5px); }
+
+}
+
+@media (min-width: 768px) {
+
+    .container { max-width: 720px; }
+
+}
+
+@media (min-width: 992px) {
+
+    .container { max-width: 960px; }
+
+    .has-scrollbar > li { min-width: calc(33.33% - 6.66px); }
+
+    .h2 { --fs-1: 4.2rem; }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+
+    }
+
+    .promo .promo-item {
+        min-width: calc(25% - 7.5px);
+
+    }
+
+
 }
