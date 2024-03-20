@@ -409,6 +409,25 @@
     z-index: -1;
 }
 
+.carousel .list .item .image{
+    flex-shrink: 0;
+    width: 450px;
+    height: 500px;
+    --left: -200px;
+    background: var(--img-src) var(--left) ;
+    /*url(images/soda.png) no-repeat;*/
+    background-size: 100% auto;
+    background-blend-mode: multiply;
+    /*-webkit-mask-image: url(images/soda.png);*/
+    -webkit-mask-size: 100% auto;
+    -webkit-mask-repeat: no-repeat;
+    /*mask-image: url(images/soda.png);*/
+    mask-size: 100% auto;
+    mask-repeat: no-repeat;
+    transition: background 1s ease-in-out;
+}
+
+
 
 
 
