@@ -322,6 +322,10 @@ body{
   #PROMO
 \*-----------------------------------*/
 
+.section-divider{
+    padding: 60px 0px;
+}
+
 .promo-card {
     position: relative;
     background-color:#fff;
