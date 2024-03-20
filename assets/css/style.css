@@ -580,6 +580,22 @@
      }
 }
 
+.carousel.effect .item .image{
+    animation: transformAnimation 1s ease-in-out 1 forwards;
+}
+.carousel.effect .item .info .title,
+.carousel.effect .item .info .category,
+.carousel.effect .item .info .des,
+.carousel.effect .item .info a{
+    animation: transformAnimation 1s ease-in-out 1 forwards;
+}
+.carousel.effect .item .info .category{
+    animation-delay: 0.1s;
+}
+.carousel.effect .item .info .des{
+    animation-delay: 0.2s;
+}
+
 
 
 
