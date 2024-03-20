@@ -453,6 +453,21 @@
     margin: 1em 0;
 }
 
+.carousel .list .item .info a{
+    display: inline-flex;
+    gap: 20px;
+    text-decoration: none;
+    color: #eee;
+    font-weight: 500;
+}
+/* set active item */
+.carousel .list .item{
+    z-index: 1;
+}
+.carousel .list .item.active{
+    z-index: 2;
+}
+
 
 
 
