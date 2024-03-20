@@ -541,6 +541,36 @@
 
 }
 
+@media screen and (max-width: 767px){
+    .carousel{
+        height: 100vh;
+    }
+    .carousel .list .item .info{
+        position: absolute;
+        bottom: 10%;
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+        text-align: center;
+        backdrop-filter: blur(5px);
+    }
+    .carousel .list .item .info .title{
+        font-size: 2em;
+    }
+    .carousel .list .item .info .des{
+        font-size: 0.8em;
+        text-align: justify;
+    }
+    .carousel .list .item .content{
+        justify-content: center;
+        align-items: start;
+    }
+    .arrows button{
+        top: unset;
+        bottom: 20px;
+    }
+}
+
 
 
 
