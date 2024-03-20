@@ -491,6 +491,22 @@
     color 0.5s;
 }
 
+.arrows button#next{
+    left: unset;
+    right: 10%;
+}
+.arrows button:hover{
+    background-color: #eee;
+    color: #000;
+}
+.dots li{
+    width: 15px;
+    height: 15px;
+    background-color: #eee5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 
 
 
