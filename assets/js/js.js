@@ -29,6 +29,11 @@ const setItemActive = (newValue, callbackFunction) => {
     active = newValue;
     callbackFunction(type);
 }
+let removeEffect;
+let autoRun = setTimeout(() => {
+    nextBtn.click();
+}, 5000);
+
 
 
 
