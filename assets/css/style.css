@@ -184,11 +184,7 @@ body{
     overflow: hidden;
 }
 
-/*@media (min-width: 996px) and (max-width: 1150px) {*/
-/*    .carousel .list .item .info .title{*/
-/*        font-size: 5em;*/
-/*    }*/
-/*}*/
+
 /* responsive */
 @media (min-width: 768px) and (max-width:1120px ) {
     .carousel .list .item .info .title{
