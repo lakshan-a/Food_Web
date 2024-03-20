@@ -70,15 +70,6 @@ const showSlider = (type) => {
 
 
 
-
-
-
-
-
-
-
-
-
 (function ($) {
     "use strict";
 
