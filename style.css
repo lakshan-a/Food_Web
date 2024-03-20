@@ -6,7 +6,6 @@
 }
 
 body{
-    background-color: #e1dad0;
     margin: 0;
     padding: 0;
     font-family: Poppins;
@@ -185,11 +184,9 @@ body{
 
 }
 
-
-
 @media screen and (max-width: 767px){
     .carousel{
-        height: 100vh;
+        height: 108.8vh;
     }
     .carousel .list .item .info{
         position: absolute;
