@@ -440,6 +440,19 @@
     align-items: center;
 }
 
+.carousel .list .item .info .title{
+    font-size: 6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+.carousel .list .item .info .category{
+    opacity: .7;
+}
+.carousel .list .item .info .des{
+    margin: 1em 0;
+}
+
 
 
 
