@@ -146,8 +146,7 @@ body{
     font-size: large;
     cursor: pointer;
     left: 10%;
-    transition: background 0.5s,
-                color 0.5s;
+    transition: background 0.5s, color 0.5s;
 }
 .arrows button#next{
     left: unset;
