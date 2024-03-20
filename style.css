@@ -70,7 +70,10 @@ body{
     z-index: -1;
 }
 
-
+.content .image{
+    width: 100%;
+    margin-top: -31px;
+}
 
 .carousel .list .item .image{
     flex-shrink: 0;
