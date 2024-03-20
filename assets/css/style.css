@@ -528,6 +528,19 @@
     overflow: hidden;
 }
 
+@media (min-width: 768px) and (max-width:1120px ) {
+    .carousel .list .item .info .title{
+        font-size: 4em;
+    }
+
+    .carousel .list .item .image{
+        flex-shrink: 0;
+        width: 300px;
+        height: 350px;
+    }
+
+}
+
 
 
 
