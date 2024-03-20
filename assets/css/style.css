@@ -609,6 +609,19 @@
     }
 }
 
+.carousel.effect{
+    --transform: 300px;
+}
+.carousel.effect .item.active{
+    --transform-from: calc(var(--transform) * -1);
+    --transform-to: 0px;
+}
+.carousel.effect .item{
+    --transform-from: 0;
+    --transform-to: var(--transform);
+}
+
+
 
 
 
