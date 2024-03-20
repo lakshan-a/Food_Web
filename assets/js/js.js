@@ -8,7 +8,14 @@ let lastPosition = list.length - 1;
 let active = 0;
 let zIndex = 2;
 
-
+nextBtn.onclick = () => {
+    let newValue = active + 1 > lastPosition ? 0 : active + 1;
+    setItemActive(newValue, showSlider);
+}
+prevBtn.onclick = () => {
+    let newValue = active - 1 < 0 ? lastPosition : active - 1;
+    setItemActive(newValue, showSlider);
+}
 
 
 
