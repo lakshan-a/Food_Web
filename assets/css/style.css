@@ -51,6 +51,21 @@ body{
     z-index: 4;
 }
 
+.header.active {
+    --color: #0D1216FF;
+    --btn-color: #0D1216FF;
+
+    position: fixed;
+    top: -86px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px #00000033;
+    animation: slideIn 0.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100%); }
+}
 
 
 
