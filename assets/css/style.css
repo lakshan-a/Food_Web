@@ -211,6 +211,14 @@ body{
     transition: 0.25s ease;
 }
 
+.search-submit:is(:hover, :focus) { color: #DEDEDEFF; }
+
+.search-close-btn {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    cursor: url("../images/close.png"), auto;
+}
 
 
 
