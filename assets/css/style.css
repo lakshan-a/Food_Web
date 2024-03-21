@@ -197,6 +197,20 @@ body{
     padding-inline-end: 70px;
 }
 
+.search-input::placeholder { color: #999999FF; }
+
+.search-input::-webkit-search-cancel-button { display: none; }
+
+.search-submit {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    color: #454545FF;
+    font-size: 4rem;
+    transition: 0.25s ease;
+}
+
 
 
 
