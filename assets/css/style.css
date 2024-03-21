@@ -61,10 +61,8 @@ ion-icon { display: block; }
 
 /*img { height: auto; }*/
 
-input,
-select,
-button,
-textarea {
+
+button{
     background: none;
     border: none;
     font: inherit;
@@ -326,7 +324,7 @@ html {
     position: absolute;
     inset: 0;
     z-index: -1;
-    cursor: url("../images/close.png"), auto;
+    cursor: url("../image/close.png"), auto;
 }
 
 
