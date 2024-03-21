@@ -465,3 +465,13 @@ body{
     background: #FEA116FF;
 }
 
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background:#FEA116FF;
+}
