@@ -97,6 +97,22 @@ body{
     font-size: 20px;
 }
 
+.search-btn ion-icon { --ionicon-stroke-width: 50px; }
+
+.nav-toggle-btn {
+    display: grid;
+    gap: 4px;
+}
+
+.line {
+    width: 10px;
+    height: 3px;
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    transition: 0.25s ease;
+}
+
+
 
 
 
