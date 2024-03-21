@@ -445,3 +445,11 @@ body{
     }
 
 }
+
+
+
+/*** Section Title ***/
+.section-title {
+    position: relative;
+    display: inline-block;
+}
