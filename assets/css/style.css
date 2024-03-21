@@ -122,6 +122,20 @@ body{
 
 .nav-toggle-btn.active .line.bottom { transform: translate(-1px, -3px) rotate(45deg); }
 
+.navbar {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 30px);
+    background-color: #fff;
+    padding-inline: 20px;
+    box-shadow: 0 1px 4px #00000033;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: 0.25s ease;
+}
 
 
 
