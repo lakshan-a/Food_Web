@@ -178,6 +178,26 @@ body{
     transition: 0.5s ease;
 }
 
+.search-container.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(50%);
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-input {
+    color:#DEDEDEFF;
+    font-size: 3rem;
+    padding: 20px 15px;
+    padding-inline-end: 70px;
+}
+
+
 
 
 
