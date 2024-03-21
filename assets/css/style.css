@@ -217,7 +217,7 @@ body{
     position: absolute;
     inset: 0;
     z-index: -1;
-    cursor: url("../images/close.png"), auto;
+    cursor: url("../image/close.png"), auto;
 }
 
 
