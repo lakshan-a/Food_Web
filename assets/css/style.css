@@ -475,3 +475,8 @@ body{
     margin-top: -1px;
     background:#FEA116FF;
 }
+
+.section-title.text-start::before,
+.section-title.text-end::after {
+    display: none;
+}
