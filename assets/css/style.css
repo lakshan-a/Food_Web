@@ -81,6 +81,21 @@ body{
     letter-spacing: -2px;
 }
 
+.logo .span {
+    display: inline-block;
+    color: #FF9D2EFF;
+}
+
+.header-btn-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-btn {
+    color: var(--btn-color);
+    font-size: 20px;
+}
 
 
 
