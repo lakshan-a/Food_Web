@@ -453,3 +453,15 @@ body{
     position: relative;
     display: inline-block;
 }
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background: #FEA116FF;
+}
+
