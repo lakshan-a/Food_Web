@@ -29,6 +29,37 @@ body{
     font-size: 15px;
 }
 
+
+
+/*-----------------------------------*\
+  #HEADER
+\*-----------------------------------*/
+
+/* .navbar, */
+.header-btn-group .btn { display: none; }
+
+.header {
+    --color: #FFFFFFFF;
+    --btn-color: #F1D6C6FF;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 20px;
+    border-block-end: 1px solid #F1D6C633;
+    z-index: 4;
+}
+
+
+
+
+
+
+
+
+
+
 /*-----------------------------------*\
   #Home section
 \*-----------------------------------*/
