@@ -221,6 +221,49 @@ body{
 }
 
 
+/*-----------------------------------*\
+  #REUSED STYLE
+\*-----------------------------------*/
+
+.container { padding-inline: 15px; }
+
+
+.btn {
+    background-color: var(--bg-color, #FF9D2EFF);
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    height:  45px;
+    padding-inline:  35px;
+    transition:  0.25s ease;
+}
+
+.btn-hover {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-hover::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 20px;
+    width: 1px;
+    height: 1px;
+    transform: translate(-50%, 51%) scale(var(--scale, 1));
+    border-radius: 50%;
+    background-color: #0D1216FF;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+
+.btn-hover:is(:hover, :focus)::after { --scale: 500; }
+
+
+
+
 
 
 
