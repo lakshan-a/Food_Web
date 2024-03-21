@@ -46,54 +46,46 @@ body{
 /*    box-sizing: border-box;*/
 /*}*/
 
-/*li { list-style: none; }*/
+li { list-style: none; }
 
-/*a {*/
-/*    text-decoration: none;*/
-/*    color: inherit;*/
-/*}*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-/*a,*/
-/*img,*/
-/*svg,*/
-/*span,*/
-/*button,*/
-/*ion-icon { display: block; }*/
+a,
+svg,
+span,
+button,
+ion-icon { display: block; }
 
-/*!*img { height: auto; }*!*/
+/*img { height: auto; }*/
 
-/*input,*/
-/*select,*/
-/*button,*/
-/*textarea {*/
-/*    background: none;*/
-/*    border: none;*/
-/*    font: inherit;*/
-/*}*/
+input,
+select,
+button,
+textarea {
+    background: none;
+    border: none;
+    font: inherit;
+}
 
-/*input,*/
-/*select,*/
-/*textarea { width: 100%; }*/
+input,
+select,
+textarea { width: 100%; }
 
-/*button { cursor: pointer; }*/
+button { cursor: pointer; }
 
-/*!*ion-icon { pointer-events: none; }*!*/
+/*ion-icon { pointer-events: none; }*/
 
-/*!*address { font-style: normal; }*!*/
+/*address { font-style: normal; }*/
 
-/*html {*/
-/*    font-family: 'Rubik', sans-serif;*/
-/*    font-size: 10px;*/
-/*    scroll-behavior: smooth;*/
-/*}*/
+html {
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
 
-/*body {*/
-/*    background-color:#fff;*/
-/*    color: #787878FF;*/
-/*    font-size: 1.6rem;*/
-/*    line-height: 1.6;*/
-/*    overflow-x: hidden;*/
-/*}*/
 
 
 
