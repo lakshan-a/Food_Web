@@ -995,6 +995,26 @@ html {
     margin-top: 25px;
 }
 
+@media (max-width: 767px) {
+    /* line 1, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
+    .service_area {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+}
+
+/* line 8, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
+.service_area .single_service {
+    border: 2px solid #eee;
+    padding: 50px 42px 55px 42px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
 
 
 
