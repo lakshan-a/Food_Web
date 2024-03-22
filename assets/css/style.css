@@ -931,17 +931,20 @@ html {
 
 /*** Section Title ***/
 .section-title {
+    font-size: 25px;
     position: relative;
     display: inline-block;
-}
-
-.about .text-uppercase{
-    font-size: 15px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
 }
 
 .about .h1par h1{
     font-size: 35px;
 
+}
+
+.about .text-uppercase{
+    font-size: 15px;
 }
 
 .section-title::before {
@@ -970,5 +973,6 @@ html {
 .section-title.text-end::after {
     display: none;
 }
+
 
 
