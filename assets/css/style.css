@@ -939,6 +939,10 @@ html {
     font-size: 15px;
 }
 
+.about .h1par h1{
+    font-size: 35px;
+
+}
 
 .section-title::before {
     position: absolute;
