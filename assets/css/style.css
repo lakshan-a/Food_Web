@@ -935,7 +935,9 @@ html {
 }
 
 
-/*** Section Title ***/
+/*-----------------------------------*\
+  #About
+\*-----------------------------------*/
 .section-title {
     font-size: 25px;
     position: relative;
@@ -979,6 +981,7 @@ html {
 .section-title.text-end::after {
     display: none;
 }
+
 
 
 .service_area {
