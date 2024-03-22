@@ -1016,6 +1016,20 @@ html {
     transition: 0.3s;
 }
 
+@media (max-width: 767px) {
+    /* line 8, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
+    .service_area .single_service {
+        margin-bottom: 30px;
+
+    }
+}
+
+/* line 19, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
+.service_area .single_service .service_icon i {
+    color: #eeaa19;
+    font-size: 50px;
+}
+
 
 
 
