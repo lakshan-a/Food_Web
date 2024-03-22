@@ -1047,13 +1047,11 @@ html {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-/* line 36, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
 .service_area .single_service:hover {
     background: #eeaa19;
     border: 2px solid transparent;
 }
 
-/* line 37, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
 .service_area .single_service:hover h4, .service_area .single_service:hover p, .service_area .single_service:hover i {
     color: #fff;
 }
