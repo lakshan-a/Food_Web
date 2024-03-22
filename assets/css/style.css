@@ -935,6 +935,11 @@ html {
     display: inline-block;
 }
 
+.about .text-uppercase{
+    font-size: 15px;
+}
+
+
 .section-title::before {
     position: absolute;
     content: "";
