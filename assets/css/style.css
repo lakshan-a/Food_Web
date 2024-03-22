@@ -981,7 +981,19 @@ html {
 }
 
 
+/* line 1, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
+.service_area {
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
 
+.service-row{
+    text-align: center;
+}
+
+.service-row2{
+    margin-top: 25px;
+}
 
 
 
