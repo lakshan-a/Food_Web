@@ -819,8 +819,9 @@ html {
     background-color:#fff;
     text-align: center;
     padding: 40px 30px;
-    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+    /*box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.2);*/
     z-index: 1;
+    box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -948,11 +949,14 @@ html {
 
 .about .h1par h1{
     font-size: 35px;
+    font-family:"Nunito", sans-serif;
 
 }
 
 .about .text-uppercase{
     font-size: 15px;
+    font-family:'Pacifico', cursive;
+    font-weight: 800;
 }
 
 .section-title::before {
@@ -1007,7 +1011,7 @@ html {
 }
 
 .service_area .single_service {
-    border: 2px solid #eee;
+    border: 2px solid #e0e0e0;
     padding: 50px 42px 55px 42px;
     margin-bottom: 60px;
     border-radius: 10px;
@@ -1016,6 +1020,7 @@ html {
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 767px) {
