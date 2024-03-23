@@ -1108,13 +1108,14 @@ html {
 .team {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 70px 0 15px 0;
 }
 
 .team .team-item {
     position: relative;
     margin-bottom: 30px;
     background: #ffffff;
+    border-radius: 15px;
 }
 
 .team .team-img {
@@ -1195,4 +1196,24 @@ html {
     opacity: 1;
     margin-top: 0;
     transition: .3s .3s;
+}
+
+.team .team-text {
+    position: relative;
+    padding: 25px 15px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .07);
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+}
+
+.team .team-text h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.team .team-text p {
+    margin: 0;
+    font-size: 16px;
 }
