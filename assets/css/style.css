@@ -1165,8 +1165,8 @@ html {
 }
 
 .team .team-social a:hover {
-    color: #ffffff;
-    background: #719a0a;
+    color: #000000;
+    background: #ffffff;
 }
 
 .team .team-item:hover .team-social {
@@ -1183,4 +1183,16 @@ html {
     opacity: 1;
     margin-top: 0;
     transition: .3s .1s;
+}
+
+.team .team-item:hover .team-social a:nth-child(3) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .2s;
+}
+
+.team .team-item:hover .team-social a:nth-child(4) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .3s;
 }
