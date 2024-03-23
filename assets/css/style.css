@@ -1168,3 +1168,19 @@ html {
     color: #ffffff;
     background: #719a0a;
 }
+
+.team .team-item:hover .team-social {
+    background: rgba(256, 256, 256, .5);
+}
+
+.team .team-item:hover .team-social a:first-child {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s 0s;
+}
+
+.team .team-item:hover .team-social a:nth-child(2) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .1s;
+}
