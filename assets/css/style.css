@@ -1116,3 +1116,17 @@ html {
     margin-bottom: 30px;
     background: #ffffff;
 }
+
+.team .team-img {
+    position: relative;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+
+.team .team-img img {
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    transform: scale(1.1);
+    transition: .3s;
+}
