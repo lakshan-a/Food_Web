@@ -1059,4 +1059,16 @@ html {
     color: #fff;
 }
 
+/*-----------------------------------*\
+  #testimonial
+\*-----------------------------------*/
 
+.testimonial-carousel .owl-item .testimonial-item,
+.testimonial-carousel .owl-item.center .testimonial-item * {
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item {
+    background: #FEA116FF !important;
+    border-color: #FEA116FF !important;
+}
