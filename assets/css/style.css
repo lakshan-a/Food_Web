@@ -1072,3 +1072,14 @@ html {
     background: #FEA116FF !important;
     border-color: #FEA116FF !important;
 }
+
+.testimonial-carousel .owl-item.center .testimonial-item * {
+    color: #F1F8FFFF !important;
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
