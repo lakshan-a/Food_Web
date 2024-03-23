@@ -1147,3 +1147,24 @@ html {
     justify-content: center;
     transition: .5s;
 }
+
+.team .team-social a {
+    position: relative;
+    margin: 0 3px;
+    margin-top: 100px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #fbaf32;
+    opacity: 0;
+}
+
+.team .team-social a:hover {
+    color: #ffffff;
+    background: #719a0a;
+}
