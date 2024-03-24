@@ -1432,3 +1432,21 @@ html {
 }
 
 .food-menu-btn:is(:hover, :focus) { --bg-color: hsl(32, 100%, 59%); }
+
+.food-menu-card:is(:hover, :focus-within) .food-menu-btn {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.food-menu-card .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-block: 20px 10px;
+}
+
+.food-menu-card .category {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
