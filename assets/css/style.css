@@ -1474,6 +1474,14 @@ html {
 
 .food-menu-card .del { color:#BABABAFF; }
 
+@media (max-width: 767px) {
+    .food-menu-card .card-title{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
 @media (min-width: 550px) {
 
     .container {
@@ -1481,6 +1489,7 @@ html {
         width: 100%;
         margin-inline: auto;
     }
+
 
 }
 
@@ -1491,6 +1500,8 @@ html {
     .food-menu-card :is(.wrapper, .price-wrapper) { justify-content: flex-start; }
 
     .food-menu-card .card-title { text-align: left; }
+
+
 
 }
 
@@ -1504,6 +1515,8 @@ html {
     .food-menu-card {
         height: 100%;
     }
+
+
 
 }
 
