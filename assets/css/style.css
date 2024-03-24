@@ -1493,3 +1493,22 @@ html {
     .food-menu-card .card-title { text-align: left; }
 
 }
+
+
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+    .food-menu-card {
+        height: 100%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .container { max-width: 1200px; }
+
+}
