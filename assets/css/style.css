@@ -1450,3 +1450,21 @@ html {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
 }
+
+.food-menu-card .rating-wrapper { font-size: 1.4rem; }
+
+.food-menu-card .card-title { margin-block-end: 10px; }
+
+.food-menu-card .price-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+.food-menu-card .price-text {
+    color: #F42F25FF;
+    text-transform: uppercase;
+    padding-inline-end: 5px;
+}
