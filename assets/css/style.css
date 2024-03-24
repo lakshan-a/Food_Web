@@ -1484,3 +1484,12 @@ html {
 
 }
 
+@media (min-width: 768px) {
+
+    .container { max-width: 720px; }
+
+    .food-menu-card :is(.wrapper, .price-wrapper) { justify-content: flex-start; }
+
+    .food-menu-card .card-title { text-align: left; }
+
+}
