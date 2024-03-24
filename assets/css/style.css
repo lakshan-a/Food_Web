@@ -1310,3 +1310,22 @@ html {
         padding: 20px 25px 25px;
     }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 19, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
+    .food_menu .nav-tabs a {
+        padding: 35px 15px 15px;
+    }
+}
+
+/* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
+.food_menu .nav-tabs a:last-child {
+    padding: 45px 0px 20px 20px;
+}
+
+@media (max-width: 576px) {
+    /* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
+    .food_menu .nav-tabs a:last-child {
+        padding: 5px 10px 15px;
+    }
+}
