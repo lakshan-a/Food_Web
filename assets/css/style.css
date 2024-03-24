@@ -1468,3 +1468,19 @@ html {
     text-transform: uppercase;
     padding-inline-end: 5px;
 }
+
+
+.food-menu-card .price { color: #FF9D2EFF; }
+
+.food-menu-card .del { color:#BABABAFF; }
+
+@media (min-width: 550px) {
+
+    .container {
+        max-width: 550px;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+}
+
