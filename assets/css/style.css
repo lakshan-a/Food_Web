@@ -1411,3 +1411,24 @@ html {
     aspect-ratio: 1 / 1;
     margin-inline: auto;
 }
+
+.food-menu-card .badge {
+    top: 0;
+    left: 0;
+}
+
+.food-menu-btn {
+    position: absolute;
+    top: calc(50% + 15px);
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: max-content;
+    --bg-color: hsl(3, 90%, 55%);
+    width: 60%;
+    --height: 40px;
+    --padding-inline: 20px;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.food-menu-btn:is(:hover, :focus) { --bg-color: hsl(32, 100%, 59%); }
