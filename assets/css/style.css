@@ -95,6 +95,7 @@ html {
     transition:  0.25s ease;
 }
 
+
 .btn-hover {
     position: relative;
     overflow: hidden;
@@ -1378,5 +1379,20 @@ html {
     height: 14px;
     width: 10px;
     bottom: 8px;
+}
+
+.badge {
+    position: absolute;
+    background: var(--bg-color, hsl(3, 90%, 55%));
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: var(--padding-block, 2px) 15px;
+}
+
+.rating-wrapper {
+    display: flex;
+    gap: 5px;
+    color: hsl(32, 100%, 59%);
 }
 
