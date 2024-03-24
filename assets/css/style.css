@@ -1329,3 +1329,27 @@ html {
         padding: 5px 10px 15px;
     }
 }
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
+    .food_menu .nav-tabs a:last-child {
+        padding: 20px 0px 20px 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
+    .food_menu .nav-tabs a:last-child {
+        padding: 20px 0px 20px 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
+    .food_menu .nav-tabs a:last-child {
+        padding: 35px 0px 15px 15px;
+    }
+
+
+}
+
