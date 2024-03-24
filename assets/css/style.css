@@ -1396,3 +1396,18 @@ html {
     color: hsl(32, 100%, 59%);
 }
 
+.food-menu-card {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow:  0 1px 2px hsla(0, 0%, 0%, 0.2);
+}
+
+.food-menu-card:focus-within { outline: 1px auto -webkit-focus-ring-color; }
+
+.food-menu-card .card-banner {
+    position: relative;
+    padding-block-start: 30px;
+    max-width: max-content;
+    aspect-ratio: 1 / 1;
+    margin-inline: auto;
+}
