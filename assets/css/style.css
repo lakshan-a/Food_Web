@@ -1474,6 +1474,13 @@ html {
 
 .food-menu-card .del { color:#BABABAFF; }
 
+@media (min-width: 576px) {
+    .food_menu .nav-tabs {
+        margin-top: -40px;
+    }
+
+}
+
 @media (max-width: 375px) {
     .food-menu-card .card-banner img{
         height: 175px;
