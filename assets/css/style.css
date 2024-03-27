@@ -1223,13 +1223,13 @@ html {
 /**************** food_menu css start ****************/
 /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
 .food_menu {
-    padding: 140px 0px 90px;
+    padding: 60px 0px 90px;
 }
 
 @media (max-width: 576px) {
     /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu {
-        padding: 70px 0px 50px;
+        padding: 50px 0px 50px;
     }
 
 
@@ -1238,7 +1238,7 @@ html {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu {
-        padding: 70px 0px 50px;
+        padding: 50px 0px 50px;
     }
 
 
@@ -1247,7 +1247,7 @@ html {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu {
-        padding: 70px 0px 50px;
+        padding: 50px 0px 50px;
     }
 
 }
@@ -1547,10 +1547,15 @@ html {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 45rem;
 }
 
 .hero-header img {
     animation: imgRotate 50s linear infinite;
+}
+
+.page-Title{
+    margin-top: 17rem;
 }
 
 @keyframes imgRotate {
