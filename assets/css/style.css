@@ -1664,5 +1664,27 @@ html {
 
 }
 
+@media (min-width: 768px) {
+
+    .container { max-width: 720px; }
+
+    .banner-list { grid-template-columns: repeat(4, 1fr); }
+
+    .banner-lg {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+
+    .banner-md {
+        grid-column: 3 / 5;
+        grid-row: 2 / 3;
+        height: 220px;
+    }
+
+
+}
+
+
+
 
 
