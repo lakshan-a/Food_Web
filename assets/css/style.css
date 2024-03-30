@@ -1773,5 +1773,23 @@ html {
 
 .contact-link:is(:hover, :focus-visible) { color: #000000; }
 
+.footer-list-title {
+    color: #fff;
+    font-weight: 700;
+    margin-block-end: 20px;
+}
 
+.footer .text { opacity: 0.7; }
+
+.footer .address {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-block-start: 20px;
+}
+
+.footer .address ion-icon {
+    font-size: 4rem;
+    flex-shrink: 0;
+}
 
