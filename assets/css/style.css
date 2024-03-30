@@ -1630,4 +1630,22 @@ html {
     letter-spacing: -0.5px;
 }
 
+.banner-lg .banner-subtitle {
+    font-size: 2.2rem;
+    margin-block-end: 10px;
+}
+
+.banner-lg .banner-title {
+    font-size: 3.2rem;
+    max-width: 16ch;
+}
+
+:is(.banner-md, .banner-sm) .banner-title {
+    font-size: 2.2rem;
+    max-width: 10ch;
+}
+
+.banner-card .banner-text { margin-block: 10px 15px; }
+
+
 
