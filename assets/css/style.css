@@ -1755,4 +1755,23 @@ html {
     border-radius: 6px;
 }
 
+.footer .logo { margin-block-end: 20px; }
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-block-start: 12px;
+}
+
+.contact-item .item-icon { font-size: 4rem; }
+
+.contact-link {
+    display: inline;
+    transition: 0.25s ease;
+}
+
+.contact-link:is(:hover, :focus-visible) { color: #000000; }
+
+
 
