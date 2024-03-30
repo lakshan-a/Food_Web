@@ -1801,7 +1801,7 @@ html {
 .footer-link:is(:hover, :focus-visible) { color: #ff9800; }
 
 .footer-form .input-field {
-    color: #fff;
+    color: #000000;
     border: 1px solid #ffffff;
     border-radius: 4px;
     padding: 8px 20px;
