@@ -1914,3 +1914,43 @@ html {
     .footer-bottom .social-list { margin-block-start: 0; }
 }
 
+@media (min-width: 992px) {
+
+    .container { max-width: 940px; }
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .container { max-width: 1200px; }
+
+    .footer { background-size: auto; }
+
+    .footer-top { grid-template-columns: repeat(4, 1fr); }
+
+    .footer-brand {
+        grid-column: 1 / 5;
+        padding: 28px 56px 18px;
+        display: grid;
+        grid-template-columns: 0.3fr 1fr;
+        align-items: center;
+    }
+
+    .footer .logo { margin-block-end: 0; }
+
+    .contact-list { justify-content: space-between; }
+
+    .contact-list::after {
+        top: 0;
+        left: 50%;
+        width: 2px;
+        height: 100%;
+        background-color:#FFFFFF33;
+    }
+
+    .contact-item { margin-block-start: 0; }
+}
+
+
+
