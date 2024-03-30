@@ -1569,3 +1569,22 @@ html {
 }
 
 
+/*-----------------------------------*\
+  #Home Menu
+\*-----------------------------------*/
+
+.banner { color: #fff; }
+
+.banner-list {
+    display: grid;
+    gap: 10px;
+    margin-left: -21px;
+}
+
+.banner h3{
+    color: #fff;
+}
+
+.banner-lg { height: 430px; }
+
+
