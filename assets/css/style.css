@@ -1734,3 +1734,25 @@ html {
 /*-----------------------------------*\
   #Footer
 \*-----------------------------------*/
+
+.footer {
+    background-color: #272727;
+    color: #fff;
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.footer-top {
+    display: grid;
+    gap: 40px;
+    padding-block-end: 60px;
+}
+
+.footer-brand {
+    background-color: #fea116;
+    padding: 32px;
+    border-radius: 6px;
+}
+
+
