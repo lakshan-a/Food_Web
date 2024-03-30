@@ -1585,6 +1585,27 @@ html {
     color: #fff;
 }
 
+.banner-sm { height: 200px; }
+
+.banner-md { height: 240px; }
+
+.banner-card {
+    position: relative;
+    height: 100%;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.2);
+    overflow: hidden;
+}
+
+.banner-card .banner-img {
+    background-color:#DEDEDEFF;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+
+
 .banner-lg { height: 430px; }
 
 
