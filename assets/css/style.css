@@ -84,7 +84,7 @@ html {
 .container { padding-inline: 15px; }
 
 
-.btn {
+.btnMenu {
     background-color: var(--bg-color, #FF9D2EFF);
     color: #fff;
     font-family: 'Rubik', sans-serif;
@@ -96,13 +96,13 @@ html {
 }
 
 
-.btn-hover {
+.btnMenu-hover {
     position: relative;
     overflow: hidden;
     z-index: 1;
 }
 
-.btn-hover::after {
+.btnMenu-hover::after {
     content: "";
     position: absolute;
     bottom: -1px;
@@ -116,7 +116,7 @@ html {
     transition: 0.5s ease;
 }
 
-.btn-hover:is(:hover, :focus)::after { --scale: 500; }
+.btnMenu-hover:is(:hover, :focus)::after { --scale: 500; }
 
 
 
