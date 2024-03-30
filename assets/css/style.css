@@ -1681,15 +1681,9 @@ html {
         height: 220px;
     }
 
-
 }
 
-
 @media (min-width: 992px) {
-    :root {
-        --section-padding: 120px;
-
-    }
 
     .container { max-width: 960px; }
 
