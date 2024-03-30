@@ -1709,5 +1709,12 @@ html {
 }
 
 
+@media (min-width: 1200px) {
+
+    .container { max-width: 1200px; }
+
+    .banner-md .banner-item-content { left: 55%; }
+
+}
 
 
