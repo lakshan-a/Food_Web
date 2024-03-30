@@ -1818,6 +1818,7 @@ html {
 }
 
 .footer-bottom {
+    margin-top: -90px;
     padding-block: 32px;
     border-block-start: 1px solid #FFFFFF19;
 }
