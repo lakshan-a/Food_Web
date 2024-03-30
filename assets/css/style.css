@@ -1609,3 +1609,25 @@ html {
 .banner-lg { height: 430px; }
 
 
+.banner-card:is(:hover, :focus-within) .banner-img { transform: scale(1.05); }
+
+.banner-item-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    right: 20px;
+    max-height: calc(100% - 30px);
+}
+
+.banner-md .banner-item-content { left: 48%; }
+
+.banner-subtitle,
+.banner-title {
+    font-family:'Rubik', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+
