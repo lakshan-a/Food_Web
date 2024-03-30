@@ -1647,5 +1647,22 @@ html {
 
 .banner-card .banner-text { margin-block: 10px 15px; }
 
+.banner-card .btn {
+    --bg-color: #FF8D29FF;
+    --height: 40px;
+    --padding-inline: 25px;
+}
+
+.banner-card .btn:is(:hover, :focus) { background-color: #0D1216FF; }
+
+@media (min-width: 550px) {
+    .container {
+        max-width: 550px;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+}
+
 
 
