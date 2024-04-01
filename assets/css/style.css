@@ -1889,6 +1889,25 @@ html {
     border: none;
     margin-bottom: 25px;
 }
+.blog-single blockquote i {
+    font-size: 30px;
+    color: #ffffff78;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.blog-single .content .img-post{
+    margin-bottom: 25px;
+}
+.blog-single .content .img-post .inner-image img{
+    height:100%;
+    width:100%;
+}
+.blog-single .content .img-post .img-text p i{
+    display:block;
+    font-weight:600;
+    margin-bottom:30px;
+}
 
 
 
