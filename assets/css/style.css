@@ -1748,6 +1748,24 @@ html {
     box-shadow: 0px 4px 20px #00000021;
 }
 
+.blog .single-news img{
+    width:100%;
+    margin:0;
+    padding:0;
+    -webkit-transition:all 0.4s ease;
+    -moz-transition:all 0.4s ease;
+    transition:all 0.4s ease;
+}
+.blog .single-news .news-head{
+    position:relative;
+    overflow:hidden;
+}
+.blog .single-news:hover .news-head img{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
 
 /*-----------------------------------*\
   #Footer
