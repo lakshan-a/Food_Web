@@ -1930,6 +1930,51 @@ html {
 .blog-single .content .title-post ul{
     padding-left:70px;
 }
+.blog-single .content .title-post ul li {
+    position:relative;
+    display: block;
+    margin: 10px 0px;
+    padding-left:12px;
+}
+.blog-single .content .title-post ul li:before{
+    position:absolute;
+    content:"";
+    left:0;
+    top:50%;
+    height:6px;
+    width:6px;
+    border-radius:100%;
+    background:#333;
+    margin-top:-1px;
+}
+.blog-single .content .title-post .inner-image img{
+    height:100%;
+    width:100%;
+}
+.blog-single .share-social{
+    overflow: hidden;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.blog-single .share-social .col-md-6{
+    padding:0px;
+}
+.blog-single .share-social .col-sm-6{
+    padding:0px;
+}
+.blog-single .share-social .col-xs-6{
+    padding:0px;
+}
+.blog-single .share-social .content-tags{
+    position:relative;
+}
+.blog-single .share-social .content-tags h4 {
+    position: absolute;
+    left: 0;
+    top:7px;
+    font-size: 15px;
+}
 
 
 
