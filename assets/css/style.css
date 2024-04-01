@@ -1814,6 +1814,22 @@ html {
     margin-bottom: 20px;
 }
 
+/*-----------------------------------*\
+  #Blog Page
+\*-----------------------------------*/
+.blog-single{
+    background:#fff;
+    padding:70px 0 100px;
+}
+.blog-single .blog-single-main{
+    margin-top:30px;
+}
+.blog-single .blog-detail {
+    background: #fff;
+}
+.blog-single .image{
+    position:relative;
+}
 
 
 
