@@ -1781,7 +1781,7 @@ html {
     color:#333;
 }
 .blog .single-news .news-body h2 a:hover{
-    color:#3353ea;
+    color: #ff9d2e;
 }
 .blog .single-news .news-content p {
     font-weight: 300;
@@ -1793,7 +1793,7 @@ html {
     border-top: 1px solid #dddddda8;
 }
 .blog .single-news .bottom i{
-    color:#3353ea;
+    color: #ff9d2e;
     margin-right:10px;
     display:inline-block;
 }
