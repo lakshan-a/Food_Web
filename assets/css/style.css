@@ -1797,6 +1797,20 @@ html {
     margin-right:10px;
     display:inline-block;
 }
+.blog .single-news .bottom span{
+    display:inline-block;
+    color:#666;
+}
+.blog .single-news .bottom .left{
+    display:inline-block;
+    float:left;
+}
+.blog .single-news .bottom .right{
+    display:inline-block;
+    float:right;
+}
+
+
 
 
 
