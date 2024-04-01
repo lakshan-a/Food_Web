@@ -2051,6 +2051,34 @@ html {
 
 }
 
+.blog-single .comments .single-comment {
+    position: relative;
+
+    padding: 35px 0px;
+}
+.blog-single .comments .single-comment.left{
+    margin-left:110px;
+}
+.blog-single .comments .single-comment img{
+    height:70px;
+    width:70px;
+    border-radius:100%;
+    position:absolute;
+    left:0;
+}
+.blog-single .single-comment .content {
+    padding-left: 95px;
+}
+.blog-single .single-comment .content h4 {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 18px;
+    text-transform:uppercase;
+}
+
 
 
 
