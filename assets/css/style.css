@@ -2155,7 +2155,12 @@ html {
     margin-bottom:0px;
 }
 
+@media (max-width: 375px) {
+    .blog-single .comments .single-comment.left {
+        margin-left: 0px;
+    }
 
+}
 
 
 
