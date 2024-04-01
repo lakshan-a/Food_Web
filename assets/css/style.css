@@ -1784,8 +1784,8 @@ html {
     color: #ff9d2e;
 }
 
-.blog.blog-meta .author a{
-    display: inline-flex;
+.blog.blog-meta span .author {
+    display: flex;
 
 }
 .blog .single-news .news-content p {
