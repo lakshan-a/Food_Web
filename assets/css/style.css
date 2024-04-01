@@ -1908,7 +1908,28 @@ html {
     font-weight:600;
     margin-bottom:30px;
 }
-
+.blog-single .content .title-post{
+    margin-bottom: 25px;
+}
+.blog-single .content .title-post h3{
+    position:relative;
+    padding-bottom:20px;
+    margin-bottom:25px;
+    font-weight:700;
+}
+.blog-single .content .title-post h3:before{
+    position:absolute;
+    content:"";
+    left:0;
+    bottom:0;
+    height:1px;
+    width:50px;
+    background:#3353ea;
+}
+.blog-single .content .title-post p{}
+.blog-single .content .title-post ul{
+    padding-left:70px;
+}
 
 
 
