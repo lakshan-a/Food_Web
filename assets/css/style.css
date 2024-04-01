@@ -1783,7 +1783,20 @@ html {
 .blog .single-news .news-body h2 a:hover{
     color:#3353ea;
 }
-
+.blog .single-news .news-content p {
+    font-weight: 300;
+    margin: 20px 0 30px 0;
+}
+.blog .single-news .bottom {
+    overflow: hidden;
+    padding: 20px 0px;
+    border-top: 1px solid #dddddda8;
+}
+.blog .single-news .bottom i{
+    color:#3353ea;
+    margin-right:10px;
+    display:inline-block;
+}
 
 
 
