@@ -141,7 +141,7 @@ html {
     width: 100%;
     padding-block: 20px;
     border-block-end: 1px solid #F1D6C633;
-    z-index: 4;
+    z-index: 999;
     background-color: rgba(255, 255, 255, 0.06);
 }
 
@@ -1808,6 +1808,10 @@ html {
 .blog .single-news .bottom .right{
     display:inline-block;
     float:right;
+}
+
+.blog-section{
+    margin-bottom: 20px;
 }
 
 
