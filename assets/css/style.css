@@ -1842,7 +1842,7 @@ html {
 
 .social-list { display: flex; }
 
-.section { padding-block: 120px; }
+.section { padding-block: 60px; }
 
 .has-before,
 .has-after {
