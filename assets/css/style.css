@@ -1871,6 +1871,10 @@ html {
     margin-right: 10px;
     color: #ff9d2e;
 }
+
+.blog-single .blog-meta span a{
+    color: #666;
+}
 .blog-single .blog-meta span a:hover{
     color: #ff9d2e;
 }
@@ -1995,11 +1999,11 @@ html {
 .blog-single .share-social .content-tags .tag-inner li a {
     border-radius: 30px;
     padding: 5px 15px;
-    background:#f4f7fc;
+    background: #ff9d2e;
     font-size: 13px;
 }
 .blog-single .share-social .content-tags .tag-inner li a:hover{
-    color:#fff;
+    color: #000000;
     background: #ff9d2e;
 }
 .blog-single .share-social .share-inner ul{
@@ -2013,7 +2017,7 @@ html {
     margin-right:0px;
 }
 .blog-single .share-social .share-inner ul li a {
-    color: #fff;
+    color: #ff9d2e;
     height: 30px;
     width: 30px;
     line-height: 30px;
