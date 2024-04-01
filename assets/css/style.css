@@ -1846,6 +1846,22 @@ html {
     overflow: hidden;
     margin-top: 40px;
 }
+.blog-single .blog-meta .author i {
+    color: #3353ea;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.blog-single .blog-meta .author  a{
+    margin-right:10px;
+}
+.blog-single .blog-meta .author  a:last-child{
+    margin:0;
+}
+.blog-single .blog-meta span {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+}
 
 
 
