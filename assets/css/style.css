@@ -2187,6 +2187,23 @@ html {
     margin-right: 20px;
 }
 
+.contact-info__icon i, .contact-info__icon span {
+    color: #fea116;
+    font-size: 27px;
+}
+
+.contact-section .media{
+    display: -webkit-box;
+}
+
+.contact-info .media-body h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2a2a2a;
+}
+
+
 
 /*-----------------------------------*\
   #Footer
