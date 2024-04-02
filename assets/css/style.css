@@ -2242,6 +2242,26 @@ html {
     height: 100% !important;
 }
 
+.about .btn,
+.blog-single .form .btn,
+.form-contact .btn{
+    font-size: 13px;
+}
+.about .btn::before,
+.blog-single .form ::before,
+.form-contact .btn::before{
+    background-color: #f1f8ff;
+}
+.about .btn:hover,
+.blog-single .form .btn:hover,
+.form-contact .btn:hover {
+    color: #000000;
+}
+
+.contact-section .contact-form{
+    margin-top: 50px;
+}
+
 
 
 /*-----------------------------------*\
