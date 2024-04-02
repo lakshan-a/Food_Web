@@ -2225,6 +2225,28 @@ html {
     margin-left: -5px;
 }
 
+.latest-works .works-menu ul li:hover span{
+    top:-39px;
+    opacity:1;
+    visibility:visible;
+}
+.latest-works .works-menu ul li:hover{
+    cursor:pointer;
+}
+.latest-works .works-menu ul li.active{
+    color:#fff;
+    cursor:pointer;
+    background:#1abc9c;
+    border-color:#1abc9c;
+}
+/* single-work */
+.latest-works .single-work{
+    position:relative;
+    margin-bottom:30px;
+    overflow:hidden;
+    z-index:9;
+}
+
 /*-----------------------------------*\
   #Contact Page
 \*-----------------------------------*/
