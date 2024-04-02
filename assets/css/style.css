@@ -2171,6 +2171,20 @@ html {
 
 }
 
+/*-----------------------------------*\
+  #Gallery Page
+\*-----------------------------------*/
+.latest-works{
+    padding: 70px 0px;
+}
+.latest-works .gallery-title {
+    text-align:left;
+    /*margin-bottom:30px;*/
+}
+.latest-works .gallery-title h2:after{
+    left:0;
+    margin-left:0px;
+}
 
 /*-----------------------------------*\
   #Contact Page
