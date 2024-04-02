@@ -2329,6 +2329,25 @@ html {
     display: inline-block;
 }
 
+.latest-works .single-work .works-hover h4 a{
+    color:#1abc9c;
+    padding: 5px 10px;
+}
+.latest-works .single-work:hover .works-hover h4{
+    transform: translateY(0px);
+}
+.latest-works .single-work .works-hover p{
+    color:#fff;
+    font-size:15px;
+    transform: translateY(-20px);
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+}
+.latest-works .single-work:hover .works-hover p{
+    transform: translateY(0px);
+}
+
 
 
 
