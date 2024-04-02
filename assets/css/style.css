@@ -2226,6 +2226,22 @@ html {
     background: transparent;
 }
 
+.form-contact .form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-contact .form-control::placeholder {
+    font-weight: 300;
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
+.form-contact textarea {
+    border-radius: 0px;
+    height: 100% !important;
+}
+
 
 
 /*-----------------------------------*\
