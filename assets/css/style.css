@@ -2304,6 +2304,33 @@ html {
     transition: all 0.4s ease;
     z-index:9;
 }
+.latest-works .single-work:hover .works-hover{
+    opacity:1;
+    visibility:visible;
+}
+.latest-works .single-work .works-hover a{
+    display:inline-block;
+    -webkit-transition:all 0.4s ease;
+    -moz-transition:all 0.4s ease;
+    transition:all 0.4s ease;
+}
+.latest-works .single-work .works-hover h4 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom:20px;
+    position: relative;
+    text-transform: uppercase;
+    transform: translateY(-20px);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    /*background: #fff;*/
+    color: #ffffff;
+    display: inline-block;
+}
+
+
+
 
 /*-----------------------------------*\
   #Contact Page
