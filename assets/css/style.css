@@ -2203,6 +2203,29 @@ html {
     color: #2a2a2a;
 }
 
+.contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-contact label {
+    font-size: 14px;
+}
+
+.form-contact .form-group {
+    margin-bottom: 30px;
+}
+
+.form-contact .form-control {
+    border: 1px solid #000000;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 16px;
+    background: transparent;
+}
+
 
 
 /*-----------------------------------*\
