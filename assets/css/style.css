@@ -2172,6 +2172,21 @@ html {
 }
 
 
+/*-----------------------------------*\
+  #Contact Page
+\*-----------------------------------*/
+.contact-section{
+    padding: 70px 0px;
+}
+
+.contact-info {
+    margin-bottom: 25px;
+}
+
+.contact-info__icon {
+    margin-right: 20px;
+}
+
 
 /*-----------------------------------*\
   #Footer
