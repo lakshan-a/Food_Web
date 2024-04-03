@@ -2221,6 +2221,27 @@ html {
     opacity: 0;
 }
 
+.gallery-controls ul li:last-child {
+    margin-right: 0;
+}
+
+.gallery-item {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.gallery-item:hover:after,
+.gallery-item:hover:before {
+    opacity: 1;
+}
+
+.gallery-item:hover .gi-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 
 /*-----------------------------------*\
