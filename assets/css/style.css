@@ -2179,9 +2179,12 @@ html {
     max-width: 100%;
 }
 .gallery-section {
-    /*background: #151515;*/
     padding-bottom: 70px;
-    padding-top: 95px;
+    padding-top: 30px;
+}
+
+.gallery-section .gallery-text{
+    text-align: center;
 }
 
 .gallery-controls {
@@ -2330,7 +2333,13 @@ html {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 479px) {
 
+    .gallery-controls ul li {
+        margin-right: 8px;
+    }
+
+}
 
 
 
