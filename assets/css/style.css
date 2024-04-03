@@ -2314,6 +2314,22 @@ html {
     margin-right: 15px;
 }
 
+.gallery-item .gi-hover h6 {
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.gallery-item .gi-hover h6 span {
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 7px;
+    display: block;
+}
+
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+    cursor: pointer;
+}
+
 
 
 
