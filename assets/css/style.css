@@ -2380,6 +2380,45 @@ html {
     }
 }
 
+@media (min-width: 768px) {
+
+    .latest-works.top {
+        margin-top: 120px;
+    }
+
+    .latest-works .single-work .works-hover {
+        padding: 15px;
+    }
+
+    .latest-works .single-work .works-hover .link {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    /*.latest-works .works-menu {*/
+    /*    text-align: right;*/
+    /*    margin-bottom: 30px;*/
+    /*    !*margin-top: 0;*!*/
+
+    /*}*/
+    /*.latest-works .works-menu ul li {*/
+    /*    padding: 5px 18px;*/
+    /*    margin-bottom:10px;*/
+    /*}*/
+
+}
+
+@media (max-width: 559px) {
+    .gallery {
+        margin-top: 257px;
+    }
+
+    /*.latest-works .works-menu {*/
+    /*    margin-top: 30px;*/
+    /*}*/
+
+}
+
 
 
 
