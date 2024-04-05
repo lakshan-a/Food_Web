@@ -2545,6 +2545,27 @@ html {
 }
 
 
+/*-----------------------------------*\
+  #Reservation Page
+\*-----------------------------------*/
+.site-section{
+    padding: 60px 0px;
+}
+.form-control {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.form-control {
+    line-height: 2;
+    font-size: 14px;
+}
+
+textarea.form-control {
+    height: inherit;
+}
+
+
 
 /*-----------------------------------*\
   #Footer
