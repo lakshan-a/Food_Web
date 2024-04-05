@@ -2526,16 +2526,22 @@ html {
 
 .about .btn,
 .blog-single .form .btn,
+.book-form .btn,
+.media-body .btn,
 .form-contact .btn{
     font-size: 13px;
 }
 .about .btn::before,
 .blog-single .form ::before,
+.book-form .btn::before,
+.media-body .btn::before,
 .form-contact .btn::before{
     background-color: #f1f8ff;
 }
 .about .btn:hover,
 .blog-single .form .btn:hover,
+.book-form .btn:hover,
+.media-body .btn:hover,
 .form-contact .btn:hover {
     color: #000000;
 }
