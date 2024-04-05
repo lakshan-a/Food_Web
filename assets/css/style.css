@@ -337,7 +337,7 @@ html {
     padding: 20px;
     background-color: #fff;
     box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
-    border: 1px solid #FD4646FF;
+    border: 1px solid #fea116;
     transition: 1.5s;
 }
 .cart.active{
@@ -351,6 +351,7 @@ html {
     font-weight: 600;
     margin-top: 2rem;
     font-family: 'Josefin Sans', sans-serif;
+    color: #FEA116;
 }
 .cart-box{
     display: grid;
@@ -370,17 +371,19 @@ html {
     row-gap: .5rem;
 }
 .cart-product-title{
+    color: #000;
     font-size: 1.4rem;
     font-weight: 900;
     text-transform: uppercase;
 }
 .cart-price{
+    color: #000;
     font-size: 1.7rem;
     font-weight: 500;
 }
 .cart-quantity{
     border: 1px solid #171427FF;
-    outline-color: #FD4646FF;
+    outline-color: #fea116;
     width: 4.4rem;
     text-align: center;
     font-size: 1.6rem;
@@ -397,6 +400,7 @@ html {
     border-top: 1px solid #171427FF;
 }
 .total-title{
+    color: #000;
     margin-top: 5px;
     font-size: 1.4rem;
     font-weight: 600;
@@ -410,9 +414,9 @@ html {
     margin: 1.5rem auto 0 auto;
     padding: 12px 20px;
     border: none;
-    background-color: #4946FDFF;
+    background-color: #fea116;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 500;
     cursor: pointer;
 }
