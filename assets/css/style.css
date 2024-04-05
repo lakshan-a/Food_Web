@@ -2662,4 +2662,33 @@ html {
 }
 
 
+/*-----------------------------------*\
+  #Cart Popup
+\*-----------------------------------*/
 
+.cart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    right: -100%;
+    width: 312px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: -2px solid 4px hsl(0 4% 15% / 10%);
+    border: 1px solid #FD4646FF;
+    transition: 1.5s;
+}
+.cart.active{
+    right: 0;
+    transition: .5s;
+    z-index: 99999;
+}
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
