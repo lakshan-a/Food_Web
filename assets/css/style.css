@@ -347,9 +347,10 @@ html {
 }
 .cart-title{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-top: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .cart-box{
     display: grid;
@@ -369,7 +370,8 @@ html {
     row-gap: .5rem;
 }
 .cart-product-title{
-    font-size: 1rem;
+    font-size: 1.4rem;
+    font-weight: 900;
     text-transform: uppercase;
 }
 .cart-price{
