@@ -342,7 +342,7 @@ html {
 }
 .cart.active{
     right: 0;
-    transition: .5s;
+    transition: .8s;
     z-index: 999;
 }
 .cart-title{
