@@ -2600,6 +2600,27 @@ textarea.form-control {
     overflow: hidden;
 }
 
+.room figure:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .5;
+    content: "";
+}
+
+.room figure .overlap-text {
+    z-index: 99;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
 
 
 
