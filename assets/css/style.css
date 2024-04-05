@@ -2580,6 +2580,28 @@ textarea.form-control {
     padding: 0;
 }
 
+.room .media-body .room-specs li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px 20px 0;
+}
+
+.room .media-body .room-specs li span {
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
+
+.room figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+
+
 
 
 
