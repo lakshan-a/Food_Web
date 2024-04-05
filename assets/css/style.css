@@ -2621,7 +2621,19 @@ textarea.form-control {
     font-size: 13px;
 }
 
+@media (max-width: 767px) {
 
+    .second-text{
+        margin-top: 15px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .third-text{
+        margin-top: 15px;
+    }
+}
 
 
 
