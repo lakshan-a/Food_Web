@@ -58,7 +58,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="service.html" class="navbar-link" data-nav-link>service</a>
+                    <a href="service.html" class="navbar-link" data-nav-link>Service</a>
                 </li>
 
                 <li class="nav-item">
@@ -73,11 +73,15 @@
                 <ion-icon name="search-outline"></ion-icon>
             </button>
 
+
             <button class="shopping-btn" aria-label="Shopping" data-search-btn>
-                <i class="fa fa-shopping-bag"></i>
+                <i class='bx bx-shopping-bag' id="cart-icon" style="margin-top: 5px;"></i>
+
+                <!--        <i class="fa fa-shopping-bag"></i>-->
             </button>
 
             <button type="submit" class="btn has-before title-md">Reservation</button>
+
 
             <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
                 <span class="line top"></span>
@@ -106,6 +110,27 @@
 
     <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
 
+</div>
+
+
+<div class="cart">
+    <h2 class="cart-title">Your Cart</h2>
+
+    <!-- CONTENT  -->
+    <div class="cart-content">
+
+
+    </div>
+
+    <!-- TOTAL   -->
+    <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+    </div>
+    <!-- BUY BUTTON  -->
+    <button type="button" class="btn-buy">Buy Now</button>
+    <!-- CART CLOSE  -->
+    <i class='bx bx-x' id="cart-close"></i>
 </div>
 
 <!--==============End of Header Section==============-->
