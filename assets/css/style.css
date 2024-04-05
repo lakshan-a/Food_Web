@@ -2779,7 +2779,6 @@ textarea.form-control {
     gap: 8px;
     border-radius: 6px;
     overflow: hidden;
-    margin-left: -5px;
 }
 
 .btn::before {
