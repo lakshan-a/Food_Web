@@ -2565,6 +2565,22 @@ textarea.form-control {
     height: inherit;
 }
 
+.book-form .row{
+    padding: 10px 0px;
+}
+
+.room .media-body {
+    padding: 30px;
+    border: 1px solid #c7c7c7;
+    border-top: none;
+}
+
+.room .media-body .room-specs {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
 /*-----------------------------------*\
