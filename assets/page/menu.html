@@ -21,12 +21,13 @@
     <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">-->
 
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
-
 
 
 </head>
@@ -35,6 +36,7 @@
 <!--=================================
 =           Header Section          =
 ==================================-->
+
 
 <header class="header" data-header>
     <div class="container">
@@ -74,11 +76,15 @@
                 <ion-icon name="search-outline"></ion-icon>
             </button>
 
+
             <button class="shopping-btn" aria-label="Shopping" data-search-btn>
-                <i class="fa fa-shopping-bag"></i>
+                <i class='bx bx-shopping-bag' id="cart-icon" style="margin-top: 5px;"></i>
+
+                <!--        <i class="fa fa-shopping-bag"></i>-->
             </button>
 
             <button type="submit" class="btn has-before title-md">Reservation</button>
+
 
             <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
                 <span class="line top"></span>
@@ -109,6 +115,30 @@
 
 </div>
 
+
+<div class="cart">
+    <h2 class="cart-title">Your Cart</h2>
+
+    <!-- CONTENT  -->
+    <div class="cart-content">
+
+
+    </div>
+
+    <!-- TOTAL   -->
+    <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">$0</div>
+    </div>
+    <!-- BUY BUTTON  -->
+    <button type="button" class="btn-buy">Buy Now</button>
+    <!-- CART CLOSE  -->
+    <i class='bx bx-x' id="cart-close"></i>
+</div>
+
+
+
+
 <!--==============End of Header Section==============-->
 
 
@@ -135,6 +165,7 @@
 <!--=================================
 =           Menu Section            =
 ==================================-->
+
 <section class="food_menu gray_bg">
     <div class="container">
         <div class="row justify-content-between">
@@ -142,15 +173,15 @@
                 <div class="section_tittle">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Popular Menu</h5>
                     <h1 class="mb-5">Delicious Food Menu</h1>
-<!--                    <p>Popular Menu</p>-->
-<!--                    <h2>Delicious Food Menu</h2>-->
+                    <!--                    <p>Popular Menu</p>-->
+                    <!--                    <h2>Delicious Food Menu</h2>-->
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="nav nav-tabs food_menu_nav" id="myTab" role="tablist">
                     <a class="active" id="Special-tab" data-toggle="tab" href="#Special" role="tab"
                        aria-controls="Special" aria-selected="false">Pizza <img src="../image/icon/play.svg"
-                                                                                  alt="play"></a>
+                                                                                alt="play"></a>
                     <a id="Breakfast-tab" data-toggle="tab" href="#Breakfast" role="tab" aria-controls="Breakfast"
                        aria-selected="false">Burger <img src="../image/icon/play.svg" alt="play"></a>
                     <a id="Launch-tab" data-toggle="tab" href="#Launch" role="tab" aria-controls="Launch"
@@ -172,6 +203,7 @@
                         <div class="order_area">
                             <div class="container">
 
+
                                 <div class="row">
                                     <div class="col-xl-4 col-md-6 menu1">
                                         <li>
@@ -179,15 +211,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-1.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -198,13 +230,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Neapolitan pizza</h3>
+                                                <h3 class="h3 card-title product-title">Neapolitan pizza</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$47.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -219,15 +251,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-2.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -238,13 +270,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Sicilian pizza</h3>
+                                                <h3 class="h3 card-title product-title">Sicilian pizza</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$48.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -259,15 +291,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-3.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -279,13 +311,13 @@
                                                 </div>
 
 
-                                                <h3 class="h3 card-title">Detroit-style pizza</h3>
+                                                <h3 class="h3 card-title product-title">Detroit-style pizza</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$49.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -301,15 +333,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-4.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -320,13 +352,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Chicago-style pizza</h3>
+                                                <h3 class="h3 card-title product-title">Chicago-style pizza</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$50.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -342,15 +374,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-5.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -361,13 +393,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">New York style pizza</h3>
+                                                <h3 class="h3 card-title product-title">New York style pizza</h3>
 
                                                 <div class="price-wrapper">
 
-                                                    <p class="price-text">Price:</p>
+                                                    <p class="price-text ">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$51.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -382,15 +414,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-6.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -401,13 +433,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Pizzetta</h3>
+                                                <h3 class="h3 card-title product-title">Pizzetta</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$52.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -422,15 +454,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-7.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -441,15 +473,15 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Cheese pizza</h3>
+                                                <h3 class="h3 card-title product-title">Cheese pizza</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$53.00</data>
 
-                                                    <del class="del" value="69.00">$69.00</del>
+                                                    <del class="del" value="69.00">$53.00</del>
 
                                                 </div>
 
@@ -462,15 +494,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-8.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -481,13 +513,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Pepperoni Pizza</h3>
+                                                <h3 class="h3 card-title product-title">Pepperoni Pizza</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$54.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -502,15 +534,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-9.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -521,13 +553,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Buffalo pizza</h3>
+                                                <h3 class="h3 card-title product-title">Buffalo pizza</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$55.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -553,15 +585,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-10.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -572,13 +604,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Turkey burger</h3>
+                                                <h3 class="h3 card-title product-title">Turkey burger</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$30.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -594,15 +626,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-11.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -613,13 +645,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Mushroom burger</h3>
+                                                <h3 class="h3 card-title product-title">Mushroom burger</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$31.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -634,15 +666,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-12.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -653,13 +685,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Cheese burger</h3>
+                                                <h3 class="h3 card-title product-title">Cheese burger</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$32.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -674,15 +706,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-13.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -693,13 +725,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Chicken Burgers</h3>
+                                                <h3 class="h3 card-title product-title">Chicken Burgers</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$33.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -714,11 +746,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-14.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -733,13 +765,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Pizza Burgers</h3>
+                                                <h3 class="h3 card-title product-title">Pizza Burgers</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$34.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -754,11 +786,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-15.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -773,13 +805,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Quesadilla Burgers</h3>
+                                                <h3 class="h3 card-title product-title">Quesadilla Burgers</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$35.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -805,11 +837,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-16.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -824,13 +856,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Roasted chicken</h3>
+                                                <h3 class="h3 card-title product-title">Roasted chicken</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$25.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -845,11 +877,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-17.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -864,13 +896,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Braised chicken</h3>
+                                                <h3 class="h3 card-title product-title">Braised chicken</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$26.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -885,11 +917,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-18.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -904,13 +936,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Fried chicken</h3>
+                                                <h3 class="h3 card-title product-title">Fried chicken</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$27.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -925,11 +957,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-19.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -944,13 +976,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Grilled chicken</h3>
+                                                <h3 class="h3 card-title product-title">Grilled chicken</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$28.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -965,11 +997,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-20.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -984,13 +1016,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Air fried chicken</h3>
+                                                <h3 class="h3 card-title product-title">Air fried chicken</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$29.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1015,15 +1047,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-21.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -1034,13 +1066,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Tater tots</h3>
+                                                <h3 class="h3 card-title product-title">Tater tots</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$17.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1055,15 +1087,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-22.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -1074,13 +1106,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Fried Chicken Unlimited</h3>
+                                                <h3 class="h3 card-title product-title">Fried Chicken Unlimited</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$18.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1095,15 +1127,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-23.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -1114,13 +1146,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Waffle fries</h3>
+                                                <h3 class="h3 card-title product-title">Waffle fries</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$19.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1135,15 +1167,15 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-24.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
-<!--                                                    <p class="category">Chicken</p>-->
+                                                    <!--                                                    <p class="category">Chicken</p>-->
 
                                                     <div class="rating-wrapper">
                                                         <ion-icon name="star"></ion-icon>
@@ -1154,13 +1186,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Poutine</h3>
+                                                <h3 class="h3 card-title product-title">Poutine</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$20.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1175,11 +1207,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-25.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1194,13 +1226,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title"> Seasoned curly fries</h3>
+                                                <h3 class="h3 card-title product-title"> Seasoned curly fries</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$21.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1215,11 +1247,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-26.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1234,13 +1266,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Potato tornado</h3>
+                                                <h3 class="h3 card-title product-title">Potato tornado</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$22.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1255,11 +1287,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-27.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1274,13 +1306,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Steak fries</h3>
+                                                <h3 class="h3 card-title product-title">Steak fries</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$23.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1295,11 +1327,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-28.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1314,13 +1346,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Potato fries</h3>
+                                                <h3 class="h3 card-title product-title">Potato fries</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$24.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1345,11 +1377,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-29.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1364,13 +1396,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Coca-Cola</h3>
+                                                <h3 class="h3 card-title product-title">Coca-Cola</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$5.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1385,11 +1417,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-30.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1404,13 +1436,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Pepsi</h3>
+                                                <h3 class="h3 card-title product-title">Pepsi</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$6.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1425,11 +1457,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-31.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1444,13 +1476,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Red Bull</h3>
+                                                <h3 class="h3 card-title product-title">Red Bull</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$7.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1465,11 +1497,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-32.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1484,13 +1516,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Diet Coke</h3>
+                                                <h3 class="h3 card-title product-title">Diet Coke</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$8.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1505,11 +1537,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-33.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1524,13 +1556,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Dr Pepper</h3>
+                                                <h3 class="h3 card-title product-title">Dr Pepper</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$9.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1545,11 +1577,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-34.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1564,13 +1596,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Mountain Dew</h3>
+                                                <h3 class="h3 card-title product-title">Mountain Dew</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$10.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1585,11 +1617,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-35.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1604,13 +1636,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Sprite</h3>
+                                                <h3 class="h3 card-title product-title">Sprite</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$11.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1625,11 +1657,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-36.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1644,13 +1676,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Fanta</h3>
+                                                <h3 class="h3 card-title product-title">Fanta</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$12.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1665,11 +1697,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-37.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1684,13 +1716,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Monster Energy</h3>
+                                                <h3 class="h3 card-title product-title">Monster Energy</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$13.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1705,11 +1737,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-38.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1724,13 +1756,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">7 Up</h3>
+                                                <h3 class="h3 card-title product-title">7 Up</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$14.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1745,11 +1777,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-39.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1764,13 +1796,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Mirinda</h3>
+                                                <h3 class="h3 card-title product-title">Mirinda</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$15.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1785,11 +1817,11 @@
 
                                                 <div class="card-banner">
                                                     <img src="../image/menu/food-menu-40.png" width="300" height="300" loading="lazy"
-                                                         alt="Fried Chicken Unlimited" class="w-100">
+                                                         alt="Fried Chicken Unlimited" class="w-100 product-img">
 
                                                     <div class="badge">-15%</div>
 
-                                                    <button class="btnMenu food-menu-btn">Order Now</button>
+                                                    <button class="btnMenu food-menu-btn add-cart">Order Now</button>
                                                 </div>
 
                                                 <div class="wrapper">
@@ -1804,13 +1836,13 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="h3 card-title">Coke Zero</h3>
+                                                <h3 class="h3 card-title product-title">Coke Zero</h3>
 
                                                 <div class="price-wrapper">
 
                                                     <p class="price-text">Price:</p>
 
-                                                    <data class="price">$49.00</data>
+                                                    <data class="price product-price">$16.00</data>
 
                                                     <del class="del" value="69.00">$69.00</del>
 
@@ -1829,6 +1861,7 @@
         </div>
     </div>
 </section>
+
 <!--==============End of menu Section==============-->
 
 <!--=================================
@@ -2000,6 +2033,8 @@
 
 <!-- Template Javascript -->
 <script src="../js/js.js"></script>
+<script src="../js/main.js"></script>
+
 
 </body>
 
