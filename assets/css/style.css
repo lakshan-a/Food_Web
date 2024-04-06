@@ -2709,6 +2709,25 @@ textarea {
     vertical-align: middle;
     color: rgba(0, 0, 0, 0.8); }
 
+.site-blocks-table tbody tr:first-child td {
+    border-top: 1px solid #3b5d50 !important; }
+.site-blocks-table .btn {
+    background: none !important;
+    color: #000000;
+    border: none;
+    height: auto !important; }
+
+.site-block-order-table th {
+    border-top: none !important;
+    border-bottom-width: 1px !important; }
+
+.site-block-order-table td, .site-block-order-table th {
+    color: #000000; }
+
+.couponcode-wrap input {
+    border-radius: 10px !important; }
+
+
 
 
 /*-----------------------------------*\
