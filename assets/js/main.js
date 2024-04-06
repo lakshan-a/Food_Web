@@ -53,6 +53,7 @@ function addEvents() {
   // Buy Order
   const buy_btn = document.querySelector(".btn-buy");
   buy_btn.addEventListener("click", handle_buyOrder);
+
 }
 
 // ============= HANDLE EVENTS FUNCTIONS =============
