@@ -2743,6 +2743,15 @@ textarea {
     width: auto;
 }
 
+.form-group{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .form-text{
+        margin-bottom: 10px;
+    }
+}
 
 
 /*-----------------------------------*\
