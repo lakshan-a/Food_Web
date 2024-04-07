@@ -2546,6 +2546,7 @@ header .totalQuantity{
 .book-form .btn,
 .media-body .btn,
 .before-footer-section .btn,
+.untree_co-section .btn,
 .form-contact .btn{
     font-size: 13px;
 }
@@ -2554,6 +2555,7 @@ header .totalQuantity{
 .book-form .btn::before,
 .media-body .btn::before,
 .before-footer-section .btn::before,
+.untree_co-section .btn::before,
 .form-contact .btn::before{
     background-color: #f1f8ff;
 }
@@ -2562,6 +2564,7 @@ header .totalQuantity{
 .book-form .btn:hover,
 .media-body .btn:hover,
 .before-footer-section .btn:hover,
+.untree_co-section .btn:hover,
 .form-contact .btn:hover {
     color: #000000;
 }
