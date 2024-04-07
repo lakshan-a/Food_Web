@@ -46,7 +46,6 @@ a {
 
 a,
 svg,
-span,
 button,
 ion-icon { display: block; }
 
@@ -2730,6 +2729,19 @@ textarea {
 .couponcode-wrap input {
     border-radius: 10px !important; }
 
+
+/*-----------------------------------*\
+  #CheckOut
+\*-----------------------------------*/
+.before-footer-section {
+    padding: 60px 0px;
+}
+.untree_co-section{
+    padding: 60px 0px;
+}
+.untree_co-section .click-text input{
+    width: auto;
+}
 
 
 
