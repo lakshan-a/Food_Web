@@ -1349,13 +1349,11 @@ header .totalQuantity{
 
 
 /**************** food_menu css start ****************/
-/* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
 .food_menu {
     padding: 60px 0px 90px;
 }
 
 @media (max-width: 576px) {
-    /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu {
         padding: 30px 0px 50px;
     }
@@ -1364,7 +1362,6 @@ header .totalQuantity{
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu {
         padding: 30px 0px 50px;
     }
@@ -1373,7 +1370,6 @@ header .totalQuantity{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu {
         padding: 30px 0px 50px;
     }
@@ -1388,7 +1384,6 @@ header .totalQuantity{
 
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    /* line 2, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu {
         padding: 70px 0px 40px;
     }
@@ -1403,7 +1398,6 @@ header .totalQuantity{
     margin-top: 30px;
 }
 
-/* line 16, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
 .food_menu .nav-tabs {
     border-bottom: 0px solid #dee2e6;
     position: relative;
@@ -1411,7 +1405,6 @@ header .totalQuantity{
     justify-content: center;
 }
 
-/* line 19, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
 .food_menu .nav-tabs a {
     font-size: 16px;
     color: #0d1c26;
@@ -1420,61 +1413,52 @@ header .totalQuantity{
 }
 
 @media (max-width: 576px) {
-    /* line 19, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu .nav-tabs a {
         padding: 5px 10px 15px;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    /* line 19, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu .nav-tabs a {
         padding: 20px 25px 25px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* line 19, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu .nav-tabs a {
         padding: 20px 25px 25px;
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    /* line 19, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu .nav-tabs a {
         padding: 35px 15px 15px;
     }
 }
 
-/* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
 .food_menu .nav-tabs a:last-child {
     padding: 45px 0px 20px 20px;
 }
 
 @media (max-width: 576px) {
-    /* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu .nav-tabs a:last-child {
         padding: 5px 10px 15px;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    /* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu .nav-tabs a:last-child {
         padding: 20px 0px 20px 20px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu .nav-tabs a:last-child {
         padding: 20px 0px 20px 20px;
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    /* line 36, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
     .food_menu .nav-tabs a:last-child {
         padding: 35px 0px 15px 15px;
     }
@@ -1491,12 +1475,10 @@ header .totalQuantity{
     transform: rotate(90deg);
 }
 
-/* line 60, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
 .food_menu .nav-tabs .active {
     color: #ff6426;
 }
 
-/* line 61, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_food_menu.scss */
 .food_menu .nav-tabs .active img {
     display: block;
     position: absolute;
