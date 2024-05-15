@@ -28,11 +28,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/loding.css">
 
 
 </head>
 
 <body>
+<!--=================================
+=           loading Section          =
+==================================-->
+
+<section class="loading">
+    <h1>Foodie...</h1>
+    <div id="cooking">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div id=area>
+            <div id="sides">
+                <div id="pan"></div>
+                <div id="handle"></div>
+            </div>
+            <div id="pancake">
+                <div id="pastry"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--==============End of loading Section==============-->
+
+
+
 <!--=================================
 =           Header Section          =
 ==================================-->
@@ -973,6 +1002,13 @@
 <!-- Template Javascript -->
 <script src="assets/js/js.js"></script>
 <script src="assets/js/main.js"></script>
+
+<script>
+    $(window).on('load',function (){
+        $(".loading").fadeOut(1000);
+        console.log("Window is fully loaded");
+    });
+</script>
 
 
 </body>
