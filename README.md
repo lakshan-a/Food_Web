@@ -20,7 +20,6 @@ Foodie. is a fully responsive Restaurant website, <br />Responsive for all devic
 
 <br />
 
-### Demo Screeshots
 
 ![Fasteat Desktop Demo](./readme-images/foodie.png "Desktop Demo")
 
